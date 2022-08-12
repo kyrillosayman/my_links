@@ -1,0 +1,155 @@
+*{
+    margin: 00;
+    padding: 00;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.photo-img img{
+    border-radius: 100%;
+    width: 150px;
+    border: double #000000 10px;
+}
+.photo-img{
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 100%;
+}
+.name-text h3{
+    color:#000;
+}
+
+.name-text h3::-moz-selection{
+	background: red;
+}
+.name-text h3::selection{
+	background: red;
+}
+.name-text{
+    text-align: center;
+    margin-top: 15px;
+    cursor:copy;
+}
+.title-text{
+    text-align: center;
+}
+.title-text p{
+    color: #666;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.links-buttons a{
+text-decoration: none;
+}
+.links-buttons i{
+    color: #000;
+    font-size: x-large;
+    padding: 0 30px;
+}
+.link{
+    background: white;
+    margin: 30px;
+    text-align: center;
+    border: #999 10px double;
+    padding: 20px 0;
+    border-radius: 50px;
+    transition: 0.8s;
+    width: 40%;
+    margin-left: 30%;
+}
+.link a{
+    color: #000;
+    font-size: larger;
+}
+.links-buttons hr{
+    width: 40%;
+    margin-left: 30%;
+    border: #000 1px solid;
+}
+.links-buttons{
+    align-items: center;
+    text-align: center;
+}
+.link:hover{
+    background: aquamarine;
+}
+.big-hr{
+    border: #000 1px solid;   
+    margin-top: 45px;
+}
+.down i{
+    opacity: 0;
+    font-size: 0px;
+}
+.social-links{
+    background-color: aliceblue;
+    height: 100px;
+    text-align: center;
+}
+.social-links i{
+    color: #666;
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 0 10px;
+}
+.name-text button{
+    background-color: #fff;
+    border: hidden;
+    cursor: copy;
+}
+.social-links button{
+    background-color: aliceblue;
+    border: hidden;
+    cursor: copy;
+}
+.share button{
+    background-color: #ffffff;
+    border: hidden;
+    cursor: copy;
+}
+.share i{
+    color: #666;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.share{
+    background-color: #fff;
+    text-align: end;
+    margin-bottom: -70px;
+}
+::-webkit-scrollbar{
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track{
+    background: rgb(255, 255, 255);
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+  }
+  
+@media screen and (max-width: 460px){
+    .link{
+        width: 70%;
+        margin-left: 16%;
+        border: #999 2px double;
+    }
+    .down i{
+        opacity: 1;
+        color: blue;
+        padding: 10px;
+        font-size: 25px;
+    }
+    .social-links{
+        height: 120px;
+    }
+    .social-links i{
+        font-size: 30px;
+        margin-top: 50px;
+        padding: 0 8px;
+    }
+}
